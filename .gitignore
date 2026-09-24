@@ -1,0 +1,44 @@
+# ===== Keil MDK-ARM 编译产物 =====
+MDK-ARM/LTZH_Car/
+MDK-ARM/*.uvguix.*
+MDK-ARM/*.lst
+MDK-ARM/*.scvd
+MDK-ARM/EventRecorderStub.scvd
+*.o
+*.d
+*.crf
+*.axf
+*.elf
+*.bin
+*.hex
+*.dep
+*.lnp
+*.map
+*.htm
+*.build_log.htm
+*.browse
+*.iex
+*.sct
+*.bak
+*_sct.Bak
+*.scvd
+*.txt
+!LICENSE.txt
+
+# ===== 调试器/IDE 个人配置 =====
+.vscode/
+.idea/
+*.uvopt.bak
+JLinkLog.txt
+*.jflash
+
+# ===== CubeMX 未使用的 CMSIS 组件(体积过大,Keil 工程未引用) =====
+Drivers/CMSIS/DSP/
+Drivers/CMSIS/NN/
+Drivers/CMSIS/Core_A/
+Drivers/CMSIS/docs/
+
+# ===== 系统临时文件 =====
+Thumbs.db
+desktop.ini
+.DS_Store
